@@ -151,11 +151,13 @@
 .achivments__item {
     display: block;
     background-color: #000aff;
-    height: 276px;
+    /* height: 276px; */
     border-radius: 25px;
     padding: 32px;
+    padding-right: 100px;
     color: white;
     flex-basis: 100%;
+    position: relative;
 }
 
 @media screen and (max-width: 720px) {
@@ -180,4 +182,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+.item__icon {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    height: 64px;
 }
