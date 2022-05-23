@@ -126,7 +126,7 @@
     padding-top: 32px;
 }
 
-.achivments__header {
+.section__header {
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
@@ -190,3 +190,5 @@
     right: 32px;
     height: 64px;
 }
+
+/* Courses section */
