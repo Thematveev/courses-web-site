@@ -192,3 +192,45 @@
 }
 
 /* Courses section */
+
+.courses__wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.courses__item {
+    flex-basis: 360px;
+    flex-grow: 1;
+    height: 548px;
+    background-color: #000aff;
+    padding: 15px;
+    border-radius: 24px;
+    color: white;
+}
+
+.courses__image {
+    height: 200px;
+    border-radius: 27px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.courses__image > img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+}
+
+.courses__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.courses__text {
+    font-weight: 400;
+    font-size: 16px;
+}
